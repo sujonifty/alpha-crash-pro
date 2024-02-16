@@ -129,10 +129,10 @@ function gameOver() {
     showElement('final-score');
     //update final score
     //1. get the final score
-    const lastScore = document.getElementById('current-score');
-    console.log('last score',lastScore);
+    const lastScore = getTextElementValue('current-score');
+    // console.log('last score',lastScore);
     //2. set the final score 
-    // setTextElementValue('last-score', lastScore);
+    setTextElementValue('last-score', lastScore);
 
     // remove the last selected alphabet highlight
     const currentAlphabet = getElementText('current-alphabet');
