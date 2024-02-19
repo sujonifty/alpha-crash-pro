@@ -15,25 +15,25 @@
         <!-- home section  -->
         <section id="home-screen" class=" min-h-screen text-white flex flex-col justify-center items-center ">
             <div class="flex flex-col items-center gap-8">
-                <h1 class="text-6xl font-extrabold uppercase">Alpha Clash Pro</h1>
-                <p>Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
+                <h1 class="text-3xl lg:text-6xl font-extrabold uppercase">Alpha Clash Pro</h1>
+                <p class="text-center">Unleash Your Keyboard Kung Fu : Press “Enter” to Play</p>
                 <button onclick="play()" class="btn">Play Now</button>
             </div>
         </section>
         <!-- playground section  -->
-        <section id="play-ground" class="play w-10/12 mx-auto pt-20 hidden">
+        <section id="play-ground" class="play lg:w-10/12 mx-auto pt-20 hidden">
             <div class="flex flex-col items-center gap-10">
-                <div class="border-[1.25rem] border-[#010313cc] bg-[#FFFFFFB3] rounded-2xl artboard artboard-horizontal phone-6">
+                <div class="border-[1.25rem] border-[#010313cc] bg-[#FFFFFFB3] rounded-2xl lg:artboard lg:artboard-horizontal phone-6">
                     <div class="flex justify-center">
-                        <p class="bg-[#2F2941] px-6 pb-4 rounded-b-xl text-white">Don't watch keyboard  while playing...</p>
+                        <p class="bg-[#2F2941] lg:px-6 pb-4 rounded-b-xl text-white">Don't watch keyboard  while playing...</p>
                     </div>
-                    <div class="flex justify-center items-center h-full">
+                    <div class="flex justify-center pb-6 items-center h-full">
                         <p id="current-alphabet" class="text-9xl font-bold text-black">Y</p>
                     </div>
                 </div>
                 
                 <div>
-                    <div class="flex justify-center gap-1 my-1 w-full">
+                    <div class="lg:flex justify-center lg:gap-1 pb-1 my-1 w-full">
                         <kbd id="q" class="kbd">q</kbd>
                         <kbd id="w" class="kbd">w</kbd>
                         <kbd id="e" class="kbd">e</kbd>
@@ -68,7 +68,7 @@
                     </div>
                 </div>
 
-                <div class="flex justify-between w-3/4">
+                <div class="flex justify-between  gap-x-40">
                     <button  class="btn  bg-purple-600 rounded-full text-white px-2">
                         Life
                         <img src="images/Group 23.svg" alt="">
